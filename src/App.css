@@ -182,3 +182,11 @@
     border-right-color: var(--border);
   }
 }
+
+.innhold {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
