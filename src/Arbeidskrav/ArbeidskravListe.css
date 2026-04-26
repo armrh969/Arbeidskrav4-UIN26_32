@@ -1,0 +1,35 @@
+.arbeidskrav-seksjon {
+  max-width: 900px;
+  margin: 2rem auto 3rem;
+  padding: 0 1rem;
+}
+
+.arbeidskrav-seksjon h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.arbeidskrav-liste {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.arbeidskrav-kort {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.arbeidskrav-kort h3 {
+  margin: 0 0 0.5rem;
+  color: #0f172a;
+}
+
+.arbeidskrav-kort p {
+  margin: 0;
+  color: #334155;
+}
