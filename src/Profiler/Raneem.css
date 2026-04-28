@@ -1,0 +1,88 @@
+.raneemKort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 300px;
+  margin: 2rem auto;
+  gap: 20px;
+  background: #ffffff;
+}
+
+.raneemKort img {
+  width: 300px;
+  height: 300px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.raneemKort h2 {
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.raneemKort section {
+  text-align: center;
+  width: 100%;
+}
+
+.raneemKort p {
+  font-size: medium;
+  padding: 10px;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: start;
+}
+
+.emailLink {
+  color: #2895ee;
+}
+
+.emailLink:hover {
+    color: #115b97;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.raneemKort {
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(255, 198, 243, 0.205);
+  border: 1px solid #dddddd33;
+  border-radius: 8px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative; 
+  overflow: hidden; 
+}
+
+.raneemKort::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right, 
+    transparent, 
+    rgba(190, 87, 185, 0.4)
+  );
+  transform: skewX(-20deg);
+}
+
+.raneemKort:hover::after {
+  animation: glimt 0.45s ease-in-out;
+}
+
+@keyframes glimt {
+  100% { left: 150%; }
+}
+
+.divider {
+  
+width: 50%;
+ border: none;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+
